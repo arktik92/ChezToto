@@ -13,6 +13,11 @@
 		F2CD381C2B0CC2D000DE4739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CD381A2B0CC2D000DE4739 /* Main.storyboard */; };
 		F2CD381E2B0CC2D300DE4739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CD381D2B0CC2D300DE4739 /* Assets.xcassets */; };
 		F2CD38212B0CC2D300DE4739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CD381F2B0CC2D300DE4739 /* LaunchScreen.storyboard */; };
+		F2CD38292B0CFC4E00DE4739 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD38282B0CFC4E00DE4739 /* CustomLabel.swift */; };
+		F2CD382B2B0D01CB00DE4739 /* OpeningDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD382A2B0D01CB00DE4739 /* OpeningDay.swift */; };
+		F2CD382D2B0D061100DE4739 /* OpeningDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD382C2B0D061100DE4739 /* OpeningDayPresenter.swift */; };
+		F2CD38322B0D125B00DE4739 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD38302B0D125B00DE4739 /* DetailViewController.swift */; };
+		F2CD38332B0D125B00DE4739 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CD38312B0D125B00DE4739 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F2CD381D2B0CC2D300DE4739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CD38202B0CC2D300DE4739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2CD38222B0CC2D300DE4739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CD38282B0CFC4E00DE4739 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		F2CD382A2B0D01CB00DE4739 /* OpeningDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningDay.swift; sourceTree = "<group>"; };
+		F2CD382C2B0D061100DE4739 /* OpeningDayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningDayPresenter.swift; sourceTree = "<group>"; };
+		F2CD38302B0D125B00DE4739 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F2CD38312B0D125B00DE4739 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				F2CD38142B0CC2D000DE4739 /* AppDelegate.swift */,
 				F2CD38162B0CC2D000DE4739 /* SceneDelegate.swift */,
 				F2CD38182B0CC2D000DE4739 /* ViewController.swift */,
+				F2CD382C2B0D061100DE4739 /* OpeningDayPresenter.swift */,
+				F2CD38282B0CFC4E00DE4739 /* CustomLabel.swift */,
+				F2CD382A2B0D01CB00DE4739 /* OpeningDay.swift */,
 				F2CD381A2B0CC2D000DE4739 /* Main.storyboard */,
+				F2CD38302B0D125B00DE4739 /* DetailViewController.swift */,
+				F2CD38312B0D125B00DE4739 /* DetailViewController.xib */,
 				F2CD381D2B0CC2D300DE4739 /* Assets.xcassets */,
 				F2CD381F2B0CC2D300DE4739 /* LaunchScreen.storyboard */,
 				F2CD38222B0CC2D300DE4739 /* Info.plist */,
@@ -128,6 +143,7 @@
 				F2CD38212B0CC2D300DE4739 /* LaunchScreen.storyboard in Resources */,
 				F2CD381E2B0CC2D300DE4739 /* Assets.xcassets in Resources */,
 				F2CD381C2B0CC2D000DE4739 /* Main.storyboard in Resources */,
+				F2CD38332B0D125B00DE4739 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +156,11 @@
 			files = (
 				F2CD38192B0CC2D000DE4739 /* ViewController.swift in Sources */,
 				F2CD38152B0CC2D000DE4739 /* AppDelegate.swift in Sources */,
+				F2CD382D2B0D061100DE4739 /* OpeningDayPresenter.swift in Sources */,
 				F2CD38172B0CC2D000DE4739 /* SceneDelegate.swift in Sources */,
+				F2CD382B2B0D01CB00DE4739 /* OpeningDay.swift in Sources */,
+				F2CD38292B0CFC4E00DE4739 /* CustomLabel.swift in Sources */,
+				F2CD38322B0D125B00DE4739 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +315,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
